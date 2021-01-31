@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "464361945965",
+    "project_id": "tugangazo-flutter",
+    "storage_bucket": "tugangazo-flutter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:464361945965:android:51c19a1b160f63a44df864",
+        "android_client_info": {
+          "package_name": "com.raejimenezca.eshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "464361945965-ea94k7n68rj7quidaiup5at1cr6gso7u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBf0H0lBPNReclHcmyng6ypPtTbRBfALmA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "464361945965-ea94k7n68rj7quidaiup5at1cr6gso7u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:464361945965:android:86717fc349131a074df864",
+        "android_client_info": {
+          "package_name": "com.tugangazo.eshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "464361945965-ea94k7n68rj7quidaiup5at1cr6gso7u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBf0H0lBPNReclHcmyng6ypPtTbRBfALmA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "464361945965-ea94k7n68rj7quidaiup5at1cr6gso7u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
