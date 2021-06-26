@@ -38,7 +38,7 @@ class _StoreHomeState extends State<StoreHome> {
               ),
             ),
             title: Text(
-              "e-shop",
+              "Alquilapp",
               // To add a fontFamily is similar to images, specify the fontFamily route in pubspec.yaml
               style: TextStyle(
                   fontSize: 55.0, color: Colors.black, fontFamily: "Signatra"),

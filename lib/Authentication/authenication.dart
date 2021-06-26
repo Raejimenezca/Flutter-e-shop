@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'login.dart';
 import 'register.dart';
 import 'package:e_shop/Config/config.dart';
+import 'package:flutter_shine/flutter_shine.dart';
 
 class AuthenticScreen extends StatefulWidget {
   @override
@@ -18,7 +19,7 @@ class _AuthenticScreenState extends State<AuthenticScreen> {
           flexibleSpace: Container(
             decoration: new BoxDecoration(
               gradient: new LinearGradient(
-                colors: [Colors.blueAccent, Colors.white],
+                colors: [Color.fromARGB(200,0,0,255),Colors.blueAccent],
                 begin: const FractionalOffset(0.0, 0.0),
                 end: const FractionalOffset(1.0, 0.0),
                 stops: [0.0, 1.0],
@@ -26,11 +27,16 @@ class _AuthenticScreenState extends State<AuthenticScreen> {
               ),
             ),
           ),
-          title: Text(
-            "e-shop",
-            // To add a fontFamily is similar to images, specify the fontFamily route in pubspec.yaml
-            style: TextStyle(
-                fontSize: 55.0, color: Colors.black, fontFamily: "Sognatra"),
+          title: Center(
+            child: Text('Alquilab',
+              style: TextStyle(
+                fontSize: 30.5, 
+                color: Colors.black, 
+                fontFamily: "Kaushan",
+                letterSpacing: 5,
+                fontWeight: FontWeight.w900
+              )
+            ),
           ),
           centerTitle: true,
           bottom: TabBar(
@@ -53,7 +59,7 @@ class _AuthenticScreenState extends State<AuthenticScreen> {
         body: Container(
           decoration: BoxDecoration(
             gradient: new LinearGradient(
-              colors: [Colors.white, Colors.blueAccent],
+              colors: [Colors.blueAccent, Color.fromARGB(200,0,0,255)],
               begin: Alignment.topRight,
               end: Alignment.bottomLeft,
             ),

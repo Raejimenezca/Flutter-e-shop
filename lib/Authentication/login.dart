@@ -32,17 +32,23 @@ class _LoginState extends State<Login> {
           children: [
             Container(
               alignment: Alignment.bottomCenter,
+              child: Padding(
+                padding: EdgeInsets.all(70),
               child: Image.asset(
-                'images/login.png',
-                height: 240.0,
-                width: 240.0,
-              ),
+                'images/login.svg',
+                height: 120.0,
+                width: 120.0,
+                ),
+              )
             ),
             Padding(
               padding: EdgeInsets.all(8.0),
               child: Text(
                 "Ingresa a tu cuenta",
-                style: TextStyle(color: Colors.white),
+                style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 20
+                ),
               ),
             ),
             Form(
