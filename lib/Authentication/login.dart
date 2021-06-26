@@ -35,7 +35,7 @@ class _LoginState extends State<Login> {
               child: Padding(
                 padding: EdgeInsets.all(70),
               child: Image.asset(
-                'images/login.svg',
+                'images/login.png',
                 height: 120.0,
                 width: 120.0,
                 ),
@@ -84,7 +84,7 @@ class _LoginState extends State<Login> {
                           );
                         });
               },
-              color: Colors.blueAccent,
+              color: Colors.grey,
               child: Text(
                 "Ingresa",
                 style: TextStyle(color: Colors.white),
